@@ -1,0 +1,72 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
+  <diagram name="Page-1" id="t8vIFijKm62wzcqZzvFJ">
+    <mxGraphModel dx="1120" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Hz4clXH2-U4N3DBBn57c-1" value="AutoScaling Local VM(Virtual Box) to Cloud VM (GCP)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="50" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hz4clXH2-U4N3DBBn57c-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="30" y="240" width="440" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="Hz4clXH2-U4N3DBBn57c-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Local VM(Environment)&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="240" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Hz4clXH2-U4N3DBBn57c-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Hz4clXH2-U4N3DBBn57c-4" target="Hz4clXH2-U4N3DBBn57c-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hz4clXH2-U4N3DBBn57c-4" value="Local VM(Virtual Box) Ubuntu VM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hz4clXH2-U4N3DBBn57c-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Hz4clXH2-U4N3DBBn57c-5" target="Hz4clXH2-U4N3DBBn57c-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hz4clXH2-U4N3DBBn57c-5" value="monitor_scale.py" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hz4clXH2-U4N3DBBn57c-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Hz4clXH2-U4N3DBBn57c-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hz4clXH2-U4N3DBBn57c-7" value="Checks if CPU &amp;gt;75%" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Hz4clXH2-U4N3DBBn57c-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="Hz4clXH2-U4N3DBBn57c-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="650" as="sourcePoint" />
+            <mxPoint x="320" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hz4clXH2-U4N3DBBn57c-12" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="580" y="250" width="400" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Hz4clXH2-U4N3DBBn57c-13" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="590" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hz4clXH2-U4N3DBBn57c-18" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Cloud -GCP VM&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="260" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Hz4clXH2-U4N3DBBn57c-19" value="GCP Services" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Hz4clXH2-U4N3DBBn57c-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Hz4clXH2-U4N3DBBn57c-20" target="Hz4clXH2-U4N3DBBn57c-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hz4clXH2-U4N3DBBn57c-20" value="Compute instance on GCP - app.py" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="690" y="390" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Hz4clXH2-U4N3DBBn57c-21" value="Shows Output:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;Hello from GCP VM!&quot;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="700" y="530" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Hz4clXH2-U4N3DBBn57c-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Hz4clXH2-U4N3DBBn57c-24" target="Hz4clXH2-U4N3DBBn57c-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hz4clXH2-U4N3DBBn57c-24" value="Managed Instance Group +Service account creation" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="860" y="390" width="105" height="105" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
